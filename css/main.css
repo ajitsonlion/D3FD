@@ -1,0 +1,47 @@
+.lw {
+    font-size: 60px;
+}
+
+svg {
+    border: 1px solid #ccc;
+}
+
+body {
+    font: 10px sans-serif;
+}
+
+circle.node {
+    fill: lightsteelblue;
+    stroke: #555;
+    stroke-width: 3px;
+    cursor: move;
+}
+
+circle.leaf {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+path.hull {
+    fill: lightsteelblue;
+    fill-opacity: 0.5;
+}
+
+path.link {
+    fill: none;
+    stroke: #333;
+    stroke-opacity: 0.5;
+    pointer-events: none;
+}
+
+circle {
+    fill: #ccc;
+    stroke: #333;
+    stroke-width: 1.5px;
+}
+
+text {
+    font: 10px sans-serif;
+    pointer-events: none;
+    text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
